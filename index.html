@@ -21,6 +21,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-bg">
+        <button class="modal-close button" type="button" data-modal-close>
+          <svg width="8" height="8" class="close-svg">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <header class="header">
       <div class="container flex-space">
         <nav class="list nav-list">
@@ -428,15 +437,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal is-hidden" data-modal>
-      <div class="modal-bg">
-        <button class="modal-close" data-modal-close class="button">
-          <svg width="8" height="8" class="close-svg">
-            <use href="./images/icons.svg#close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
