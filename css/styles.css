@@ -63,8 +63,9 @@ color: var(--OCEAN);
 /*Classes style*/
 
 .modal{
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 10;
@@ -72,7 +73,6 @@ color: var(--OCEAN);
     display: flex;
     justify-content: center;
     top: 0;
-    padding-top: 80px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -83,8 +83,6 @@ color: var(--OCEAN);
     background: var(--DAIRY, #FCFCFC);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     position: relative;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -101,7 +99,7 @@ color: var(--OCEAN);
     border-radius: 50%;
     margin: 1px solid rgba(0, 0, 0, 0, 0.1);
     top: 24px;
-    right: 24px;
+    right: 24px;    
     padding: 0;
     transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
