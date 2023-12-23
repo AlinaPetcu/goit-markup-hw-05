@@ -139,7 +139,7 @@ svg {
 
 .close-svg:hover,
 .close-svg:focus{
-    fill: #ffffff;
+    fill: var(--white, #FFF);
 }
 
 .container {
