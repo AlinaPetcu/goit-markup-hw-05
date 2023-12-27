@@ -660,7 +660,7 @@ svg {
 
 .overlay-paragraf:hover,
 .overlay-paragraf:focus {
-transform: translateY(0);
+transform: translateY(0%);
 }
 
 
