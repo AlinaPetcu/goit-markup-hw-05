@@ -655,8 +655,10 @@ svg {
 
 }
 
-.project-foto-card:hover .overlay-paragraf,
-.project-foto-card:focus .overlay-paragraf {
+.project-foto-card:hover .overlay-paragraf {
+        transform: translateY(0%);
+    }
+.portfolio-link-app:focus .overlay-paragraf {
 transform: translateY(0%);
 }
 
