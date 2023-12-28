@@ -263,6 +263,9 @@ svg {
     line-height: 150%;
     letter-spacing: 0.32px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:24px;
     gap: 40px;
 
 }
